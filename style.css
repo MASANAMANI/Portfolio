@@ -1,0 +1,108 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+header h1{
+    font-size: 40px;
+}
+header h3{
+    color: yellow;
+}
+
+.index{
+    height:240px;
+    margin: 40px;
+    padding-top: 5%;
+    padding-left: 12%;
+    padding-bottom: 30px;
+    display:grid;
+    column-gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    background-color: gray;
+}
+.index a{
+    text-decoration: none;
+    text-align:justify;
+    font-size: 30px;
+}
+.index a:hover{
+    color: red;
+}
+#a1{
+    padding-left: 10%;
+}
+#a2{
+    padding-left: 15%;
+}
+#a3{
+    padding-left: 20%;
+}
+#developer,#projects,#contact{
+    padding:20px
+}
+h2{
+    color: rgb(120, 120, 230);
+}
+#developer p{
+    font-size: 18px;
+    text-indent: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#developer ul{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    padding-left: 2%;
+}
+form label{
+    padding-right: 40px;
+    font-size:20px;
+}
+form input{
+    margin:10px;
+    padding: 1%;
+    border:1px solid black;
+}
+.message{
+    padding-right: 18px;
+}
+#message{
+    width: 520px;
+    height:120px
+}
+button{
+    margin: 2% 10%;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+#projects div{
+    padding-left: 40px;
+}
+#projects h3{
+    font-size: 25px;
+}
+#projects p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#projects a{
+    font-size: 20px;
+}
+footer{
+    background-color:#333;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
